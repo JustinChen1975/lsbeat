@@ -9157,7 +9157,7 @@ type: keyword
 None
 
 
-*`counter`*::
+*`lsbeat`*::
 +
 --
 PLEASE UPDATE DOCUMENTATION
@@ -9166,6 +9166,39 @@ PLEASE UPDATE DOCUMENTATION
 type: long
 
 required: True
+
+--
+
+*`modtime`*::
++
+--
+type: date
+
+--
+
+*`filename`*::
++
+--
+type: text
+
+--
+
+*`path`*::
++
+--
+--
+
+*`directory`*::
++
+--
+type: boolean
+
+--
+
+*`filesize`*::
++
+--
+type: long
 
 --
 

@@ -34,7 +34,7 @@ require (
 	github.com/gophercloud/gophercloud v0.1.0 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/josephspurrier/goversioninfo v1.2.0 // indirect
-	github.com/magefile/mage v1.11.0
+	github.com/magefile/mage v1.10.0
 	github.com/mitchellh/gox v1.0.1
 	github.com/mitchellh/hashstructure v1.1.0 // indirect
 	github.com/pierrre/gotestcover v0.0.0-20160517101806-924dca7d15f0
