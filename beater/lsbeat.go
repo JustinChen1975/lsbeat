@@ -90,6 +90,8 @@ func (bt *lsbeat) Stop() {
 	close(bt.done)
 }
 
+//only for testing
+
 func (bt *lsbeat) listDir1(dirFile string, beatname string) {
 	files, _ := ioutil.ReadDir(dirFile)
 	for _, f := range files {
