@@ -1,37 +1,51 @@
-2021-02-23T17:45:37.916+0800	INFO	instance/beat.go:648	Home path: [/home/cxc/go/src/github.com/JustinChen1975/lsbeat] Config path: [/home/cxc/go/src/github.com/JustinChen1975/lsbeat] Data path: [/home/cxc/go/src/github.com/JustinChen1975/lsbeat/data] Logs path: [/home/cxc/go/src/github.com/JustinChen1975/lsbeat/logs]
-2021-02-23T17:45:37.916+0800	INFO	instance/beat.go:656	Beat ID: 65fa1aa9-98fb-4bbd-8a61-a4b322ac2fe0
-2021-02-23T17:45:37.918+0800	INFO	[seccomp]	seccomp/seccomp.go:124	Syscall filter successfully installed
-2021-02-23T17:45:37.919+0800	INFO	[beat]	instance/beat.go:977	Beat info	{"system_info": {"beat": {"path": {"config": "/home/cxc/go/src/github.com/JustinChen1975/lsbeat", "data": "/home/cxc/go/src/github.com/JustinChen1975/lsbeat/data", "home": "/home/cxc/go/src/github.com/JustinChen1975/lsbeat", "logs": "/home/cxc/go/src/github.com/JustinChen1975/lsbeat/logs"}, "type": "lsbeat", "uuid": "65fa1aa9-98fb-4bbd-8a61-a4b322ac2fe0"}}}
-2021-02-23T17:45:37.919+0800	INFO	[beat]	instance/beat.go:986	Build info	{"system_info": {"build": {"commit": "master", "libbeat": "8.0.0", "time": "2021-02-18T04:10:37.000Z", "version": "8.0.0"}}}
-2021-02-23T17:45:37.919+0800	INFO	[beat]	instance/beat.go:989	Go runtime info	{"system_info": {"go": {"os":"linux","arch":"amd64","max_procs":6,"version":"go1.15.7"}}}
-2021-02-23T17:45:37.919+0800	INFO	[beat]	instance/beat.go:993	Host info	{"system_info": {"host": {"architecture":"x86_64","boot_time":"2021-02-13T22:04:42+08:00","containerized":false,"name":"U18-ONOS","ip":["127.0.0.1/8","58.199.65.160/24","192.168.30.3/32"],"kernel_version":"5.4.0-62-generic","mac":["00:50:56:bb:6a:e9"],"os":{"type":"linux","family":"debian","platform":"ubuntu","name":"Ubuntu","version":"18.04.5 LTS (Bionic Beaver)","major":18,"minor":4,"patch":5,"codename":"bionic"},"timezone":"CST","timezone_offset_sec":28800,"id":"1a982b9e1baa4446a6ac004dea743bf1"}}}
-2021-02-23T17:45:37.919+0800	INFO	[beat]	instance/beat.go:1022	Process info	{"system_info": {"process": {"capabilities": {"inheritable":null,"permitted":null,"effective":null,"bounding":["chown","dac_override","dac_read_search","fowner","fsetid","kill","setgid","setuid","setpcap","linux_immutable","net_bind_service","net_broadcast","net_admin","net_raw","ipc_lock","ipc_owner","sys_module","sys_rawio","sys_chroot","sys_ptrace","sys_pacct","sys_admin","sys_boot","sys_nice","sys_resource","sys_time","sys_tty_config","mknod","lease","audit_write","audit_control","setfcap","mac_override","mac_admin","syslog","wake_alarm","block_suspend","audit_read"],"ambient":null}, "cwd": "/home/cxc/go/src/github.com/JustinChen1975/lsbeat", "exe": "/home/cxc/go/src/github.com/JustinChen1975/lsbeat/lsbeat", "name": "lsbeat", "pid": 20221, "ppid": 27444, "seccomp": {"mode":"filter","no_new_privs":true}, "start_time": "2021-02-23T17:45:37.230+0800"}}}
-2021-02-23T17:45:37.919+0800	INFO	instance/beat.go:303	Setup Beat: lsbeat; Version: 8.0.0
-2021-02-23T17:45:37.919+0800	INFO	[index-management]	idxmgmt/std.go:184	Set output.elasticsearch.index to 'lsbeat-8.0.0' as ILM is enabled.
-2021-02-23T17:45:37.920+0800	INFO	eslegclient/connection.go:99	elasticsearch url: http://localhost:9200
-2021-02-23T17:45:37.920+0800	INFO	[publisher]	pipeline/module.go:113	Beat name: U18-ONOS
-2021-02-23T17:45:37.920+0800	INFO	[monitoring]	log/log.go:117	Starting metrics logging every 30s
-2021-02-23T17:45:37.920+0800	INFO	instance/beat.go:467	lsbeat start running.
-2021-02-23T17:45:37.920+0800	INFO	beater/lsbeat.go:42	lsbeat is running! Hit CTRL-C to stop it.
-2021-02-23T17:45:40.917+0800	INFO	[add_cloud_metadata]	add_cloud_metadata/add_cloud_metadata.go:101	add_cloud_metadata: hosting provider type not detected.
-2021-02-23T17:45:40.953+0800	INFO	[publisher_pipeline_output]	pipeline/output.go:143	Connecting to backoff(elasticsearch(http://localhost:9200))
-2021-02-23T17:45:40.954+0800	INFO	[publisher]	pipeline/retry.go:219	retryer: send unwait signal to consumer
-2021-02-23T17:45:40.954+0800	INFO	[publisher]	pipeline/retry.go:223	  done
-2021-02-23T17:45:40.957+0800	INFO	[esclientleg]	eslegclient/connection.go:314	Attempting to connect to Elasticsearch version 7.10.2
-2021-02-23T17:45:40.958+0800	INFO	[esclientleg]	eslegclient/connection.go:314	Attempting to connect to Elasticsearch version 7.10.2
-2021-02-23T17:45:40.974+0800	INFO	[index-management]	idxmgmt/std.go:261	Auto ILM enable success.
-2021-02-23T17:45:40.975+0800	INFO	[index-management.ilm]	ilm/std.go:139	do not generate ilm policy: exists=true, overwrite=false
-2021-02-23T17:45:40.975+0800	INFO	[index-management]	idxmgmt/std.go:274	ILM policy successfully loaded.
-2021-02-23T17:45:40.975+0800	INFO	[index-management]	idxmgmt/std.go:407	Set setup.template.name to '{lsbeat-8.0.0 {now/d}-000001}' as ILM is enabled.
-2021-02-23T17:45:40.975+0800	INFO	[index-management]	idxmgmt/std.go:412	Set setup.template.pattern to 'lsbeat-8.0.0-*' as ILM is enabled.
-2021-02-23T17:45:40.975+0800	INFO	[index-management]	idxmgmt/std.go:446	Set settings.index.lifecycle.rollover_alias in template to {lsbeat-8.0.0 {now/d}-000001} as ILM is enabled.
-2021-02-23T17:45:40.975+0800	INFO	[index-management]	idxmgmt/std.go:450	Set settings.index.lifecycle.name in template to {lsbeat {"policy":{"phases":{"hot":{"actions":{"rollover":{"max_age":"30d","max_size":"50gb"}}}}}}} as ILM is enabled.
-2021-02-23T17:45:40.976+0800	INFO	[template_loader]	template/load.go:109	Template lsbeat-8.0.0 already exists and will not be overwritten.
-2021-02-23T17:45:40.976+0800	INFO	[index-management]	idxmgmt/std.go:298	Loaded index template.
-2021-02-23T17:45:40.977+0800	INFO	[index-management]	idxmgmt/std.go:309	Write alias successfully generated.
-2021-02-23T17:45:40.977+0800	INFO	[publisher_pipeline_output]	pipeline/output.go:151	Connection to backoff(elasticsearch(http://localhost:9200)) established
-2021-02-23T17:45:41.517+0800	INFO	beater/lsbeat.go:56	Event sent
-2021-02-23T17:45:43.269+0800	INFO	[monitoring]	log/log.go:152	Total non-zero metrics	{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":60,"time":{"ms":68}},"total":{"ticks":170,"time":{"ms":184},"value":170},"user":{"ticks":110,"time":{"ms":116}}},"handles":{"limit":{"hard":1048576,"soft":1024},"open":10},"info":{"ephemeral_id":"4e3e0cc6-817d-4f39-ae5b-ba1b41537413","uptime":{"ms":5366}},"memstats":{"gc_next":24119216,"memory_alloc":18471960,"memory_sys":75842560,"memory_total":35539720,"rss":57286656},"runtime":{"goroutines":12}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":650,"active":50,"batches":14,"total":700},"read":{"bytes":10945},"type":"elasticsearch","write":{"bytes":563282}},"pipeline":{"clients":0,"events":{"active":3684,"published":4334,"retry":50,"total":4334},"queue":{"acked":650}}},"system":{"cpu":{"cores":6},"load":{"1":0.44,"15":0.03,"5":0.1,"norm":{"1":0.0733,"15":0.005,"5":0.0167}}}}}}
-2021-02-23T17:45:43.269+0800	INFO	[monitoring]	log/log.go:153	Uptime: 5.367623023s
-2021-02-23T17:45:43.269+0800	INFO	[monitoring]	log/log.go:130	Stopping metrics logging.
-2021-02-23T17:45:43.269+0800	INFO	instance/beat.go:473	lsbeat stopped.
+2021-02-23T17:53:23.500+0800	INFO	instance/beat.go:648	Home path: [/home/cxc/go/src/github.com/JustinChen1975/lsbeat] Config path: [/home/cxc/go/src/github.com/JustinChen1975/lsbeat] Data path: [/home/cxc/go/src/github.com/JustinChen1975/lsbeat/data] Logs path: [/home/cxc/go/src/github.com/JustinChen1975/lsbeat/logs]
+2021-02-23T17:53:23.500+0800	INFO	instance/beat.go:656	Beat ID: 65fa1aa9-98fb-4bbd-8a61-a4b322ac2fe0
+2021-02-23T17:53:23.501+0800	INFO	[seccomp]	seccomp/seccomp.go:124	Syscall filter successfully installed
+2021-02-23T17:53:23.501+0800	INFO	[beat]	instance/beat.go:977	Beat info	{"system_info": {"beat": {"path": {"config": "/home/cxc/go/src/github.com/JustinChen1975/lsbeat", "data": "/home/cxc/go/src/github.com/JustinChen1975/lsbeat/data", "home": "/home/cxc/go/src/github.com/JustinChen1975/lsbeat", "logs": "/home/cxc/go/src/github.com/JustinChen1975/lsbeat/logs"}, "type": "lsbeat", "uuid": "65fa1aa9-98fb-4bbd-8a61-a4b322ac2fe0"}}}
+2021-02-23T17:53:23.501+0800	INFO	[beat]	instance/beat.go:986	Build info	{"system_info": {"build": {"commit": "master", "libbeat": "8.0.0", "time": "2021-02-18T04:10:37.000Z", "version": "8.0.0"}}}
+2021-02-23T17:53:23.501+0800	INFO	[beat]	instance/beat.go:989	Go runtime info	{"system_info": {"go": {"os":"linux","arch":"amd64","max_procs":6,"version":"go1.15.7"}}}
+2021-02-23T17:53:23.502+0800	INFO	[beat]	instance/beat.go:993	Host info	{"system_info": {"host": {"architecture":"x86_64","boot_time":"2021-02-13T22:04:42+08:00","containerized":false,"name":"U18-ONOS","ip":["127.0.0.1/8","58.199.65.160/24","192.168.30.3/32"],"kernel_version":"5.4.0-62-generic","mac":["00:50:56:bb:6a:e9"],"os":{"type":"linux","family":"debian","platform":"ubuntu","name":"Ubuntu","version":"18.04.5 LTS (Bionic Beaver)","major":18,"minor":4,"patch":5,"codename":"bionic"},"timezone":"CST","timezone_offset_sec":28800,"id":"1a982b9e1baa4446a6ac004dea743bf1"}}}
+2021-02-23T17:53:23.502+0800	INFO	[beat]	instance/beat.go:1022	Process info	{"system_info": {"process": {"capabilities": {"inheritable":null,"permitted":null,"effective":null,"bounding":["chown","dac_override","dac_read_search","fowner","fsetid","kill","setgid","setuid","setpcap","linux_immutable","net_bind_service","net_broadcast","net_admin","net_raw","ipc_lock","ipc_owner","sys_module","sys_rawio","sys_chroot","sys_ptrace","sys_pacct","sys_admin","sys_boot","sys_nice","sys_resource","sys_time","sys_tty_config","mknod","lease","audit_write","audit_control","setfcap","mac_override","mac_admin","syslog","wake_alarm","block_suspend","audit_read"],"ambient":null}, "cwd": "/home/cxc/go/src/github.com/JustinChen1975/lsbeat", "exe": "/home/cxc/go/src/github.com/JustinChen1975/lsbeat/lsbeat", "name": "lsbeat", "pid": 20877, "ppid": 27444, "seccomp": {"mode":"filter","no_new_privs":true}, "start_time": "2021-02-23T17:53:22.820+0800"}}}
+2021-02-23T17:53:23.502+0800	INFO	instance/beat.go:303	Setup Beat: lsbeat; Version: 8.0.0
+2021-02-23T17:53:23.502+0800	INFO	[index-management]	idxmgmt/std.go:184	Set output.elasticsearch.index to 'lsbeat-8.0.0' as ILM is enabled.
+2021-02-23T17:53:23.502+0800	INFO	eslegclient/connection.go:99	elasticsearch url: http://58.199.65.160:9200
+2021-02-23T17:53:23.502+0800	INFO	[publisher]	pipeline/module.go:113	Beat name: U18-ONOS
+2021-02-23T17:53:23.502+0800	INFO	[monitoring]	log/log.go:117	Starting metrics logging every 30s
+2021-02-23T17:53:23.502+0800	INFO	instance/beat.go:467	lsbeat start running.
+2021-02-23T17:53:23.503+0800	INFO	beater/lsbeat.go:42	lsbeat is running! Hit CTRL-C to stop it.
+2021-02-23T17:53:26.501+0800	INFO	[add_cloud_metadata]	add_cloud_metadata/add_cloud_metadata.go:101	add_cloud_metadata: hosting provider type not detected.
+2021-02-23T17:53:26.537+0800	INFO	[publisher_pipeline_output]	pipeline/output.go:143	Connecting to backoff(elasticsearch(http://58.199.65.160:9200))
+2021-02-23T17:53:26.538+0800	INFO	[publisher]	pipeline/retry.go:219	retryer: send unwait signal to consumer
+2021-02-23T17:53:26.538+0800	INFO	[publisher]	pipeline/retry.go:223	  done
+2021-02-23T17:53:26.544+0800	INFO	[esclientleg]	eslegclient/connection.go:314	Attempting to connect to Elasticsearch version 7.10.2
+2021-02-23T17:53:26.545+0800	INFO	[esclientleg]	eslegclient/connection.go:314	Attempting to connect to Elasticsearch version 7.10.2
+2021-02-23T17:53:26.561+0800	INFO	[index-management]	idxmgmt/std.go:261	Auto ILM enable success.
+2021-02-23T17:53:26.562+0800	INFO	[index-management.ilm]	ilm/std.go:139	do not generate ilm policy: exists=true, overwrite=false
+2021-02-23T17:53:26.562+0800	INFO	[index-management]	idxmgmt/std.go:274	ILM policy successfully loaded.
+2021-02-23T17:53:26.562+0800	INFO	[index-management]	idxmgmt/std.go:407	Set setup.template.name to '{lsbeat-8.0.0 {now/d}-000001}' as ILM is enabled.
+2021-02-23T17:53:26.562+0800	INFO	[index-management]	idxmgmt/std.go:412	Set setup.template.pattern to 'lsbeat-8.0.0-*' as ILM is enabled.
+2021-02-23T17:53:26.562+0800	INFO	[index-management]	idxmgmt/std.go:446	Set settings.index.lifecycle.rollover_alias in template to {lsbeat-8.0.0 {now/d}-000001} as ILM is enabled.
+2021-02-23T17:53:26.562+0800	INFO	[index-management]	idxmgmt/std.go:450	Set settings.index.lifecycle.name in template to {lsbeat {"policy":{"phases":{"hot":{"actions":{"rollover":{"max_age":"30d","max_size":"50gb"}}}}}}} as ILM is enabled.
+2021-02-23T17:53:26.563+0800	INFO	[template_loader]	template/load.go:109	Template lsbeat-8.0.0 already exists and will not be overwritten.
+2021-02-23T17:53:26.563+0800	INFO	[index-management]	idxmgmt/std.go:298	Loaded index template.
+2021-02-23T17:53:26.563+0800	INFO	[index-management]	idxmgmt/std.go:309	Write alias successfully generated.
+2021-02-23T17:53:26.564+0800	INFO	[publisher_pipeline_output]	pipeline/output.go:151	Connection to backoff(elasticsearch(http://58.199.65.160:9200)) established
+2021-02-23T17:53:27.951+0800	INFO	beater/lsbeat.go:56	Event sent
+2021-02-23T17:53:33.524+0800	INFO	beater/lsbeat.go:56	Event sent
+2021-02-23T17:53:43.524+0800	INFO	beater/lsbeat.go:56	Event sent
+2021-02-23T17:53:53.506+0800	INFO	[monitoring]	log/log.go:144	Non-zero metrics in the last 30s	{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":160,"time":{"ms":160}},"total":{"ticks":440,"time":{"ms":449},"value":440},"user":{"ticks":280,"time":{"ms":289}}},"handles":{"limit":{"hard":1048576,"soft":1024},"open":11},"info":{"ephemeral_id":"a45e779d-833e-43ca-825e-9bf28f4b1810","uptime":{"ms":30019}},"memstats":{"gc_next":7774392,"memory_alloc":6621056,"memory_sys":75580416,"memory_total":56293256,"rss":62586880},"runtime":{"goroutines":12}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":4335,"active":0,"batches":88,"total":4335},"read":{"bytes":58866},"type":"elasticsearch","write":{"bytes":3498263}},"pipeline":{"clients":1,"events":{"active":0,"published":4335,"retry":50,"total":4335},"queue":{"acked":4335}}},"system":{"cpu":{"cores":6},"load":{"1":0.46,"15":0.1,"5":0.24,"norm":{"1":0.0767,"15":0.0167,"5":0.04}}}}}}
+2021-02-23T17:53:53.527+0800	INFO	beater/lsbeat.go:56	Event sent
+2021-02-23T17:54:03.524+0800	INFO	beater/lsbeat.go:56	Event sent
+2021-02-23T17:54:13.526+0800	INFO	beater/lsbeat.go:56	Event sent
+2021-02-23T17:54:23.504+0800	INFO	[monitoring]	log/log.go:144	Non-zero metrics in the last 30s	{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":200,"time":{"ms":45}},"total":{"ticks":560,"time":{"ms":122},"value":560},"user":{"ticks":360,"time":{"ms":77}}},"handles":{"limit":{"hard":1048576,"soft":1024},"open":11},"info":{"ephemeral_id":"a45e779d-833e-43ca-825e-9bf28f4b1810","uptime":{"ms":60018}},"memstats":{"gc_next":6719392,"memory_alloc":3628480,"memory_total":75934856,"rss":62586880},"runtime":{"goroutines":12}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"active":0}},"pipeline":{"clients":1,"events":{"active":0}}},"system":{"load":{"1":0.28,"15":0.09,"5":0.22,"norm":{"1":0.0467,"15":0.015,"5":0.0367}}}}}}
+2021-02-23T17:54:23.524+0800	INFO	beater/lsbeat.go:56	Event sent
+2021-02-23T17:54:33.526+0800	INFO	beater/lsbeat.go:56	Event sent
+2021-02-23T17:54:43.526+0800	INFO	beater/lsbeat.go:56	Event sent
+2021-02-23T17:54:53.504+0800	INFO	[monitoring]	log/log.go:144	Non-zero metrics in the last 30s	{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":250,"time":{"ms":52}},"total":{"ticks":670,"time":{"ms":107},"value":670},"user":{"ticks":420,"time":{"ms":55}}},"handles":{"limit":{"hard":1048576,"soft":1024},"open":10},"info":{"ephemeral_id":"a45e779d-833e-43ca-825e-9bf28f4b1810","uptime":{"ms":90018}},"memstats":{"gc_next":9100160,"memory_alloc":5608640,"memory_total":96056704,"rss":62586880},"runtime":{"goroutines":10}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"active":0},"read":{"errors":1}},"pipeline":{"clients":1,"events":{"active":0}}},"system":{"load":{"1":0.17,"15":0.09,"5":0.19,"norm":{"1":0.0283,"15":0.015,"5":0.0317}}}}}}
+2021-02-23T17:54:53.524+0800	INFO	beater/lsbeat.go:56	Event sent
+2021-02-23T17:55:03.525+0800	INFO	beater/lsbeat.go:56	Event sent
+2021-02-23T17:55:13.524+0800	INFO	beater/lsbeat.go:56	Event sent
+2021-02-23T17:55:14.915+0800	INFO	[monitoring]	log/log.go:152	Total non-zero metrics	{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":300,"time":{"ms":307}},"total":{"ticks":770,"time":{"ms":781},"value":770},"user":{"ticks":470,"time":{"ms":474}}},"handles":{"limit":{"hard":1048576,"soft":1024},"open":9},"info":{"ephemeral_id":"a45e779d-833e-43ca-825e-9bf28f4b1810","uptime":{"ms":111428}},"memstats":{"gc_next":6892432,"memory_alloc":3452616,"memory_sys":75580416,"memory_total":115630952,"rss":62586880},"runtime":{"goroutines":9}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":4335,"active":0,"batches":88,"total":4335},"read":{"bytes":58866,"errors":1},"type":"elasticsearch","write":{"bytes":3498263}},"pipeline":{"clients":0,"events":{"active":0,"published":4335,"retry":50,"total":4335},"queue":{"acked":4335}}},"system":{"cpu":{"cores":6},"load":{"1":0.27,"15":0.1,"5":0.21,"norm":{"1":0.045,"15":0.0167,"5":0.035}}}}}}
+2021-02-23T17:55:14.915+0800	INFO	[monitoring]	log/log.go:153	Uptime: 1m51.429950881s
+2021-02-23T17:55:14.915+0800	INFO	[monitoring]	log/log.go:130	Stopping metrics logging.
+2021-02-23T17:55:14.915+0800	INFO	instance/beat.go:473	lsbeat stopped.
