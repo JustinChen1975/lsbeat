@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b633ac25-daf9-4c37-92f5-71d1a60f2cc6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NOTICE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_meta/config/beat.docker.yml.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_meta/config/beat.reference.yml.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_meta/config/beat.yml.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_meta/fields.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beater/lsbeat.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/root.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/config_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/fields.asciidoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/index.asciidoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fields.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/fields.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/include.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/lsbeat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/lsbeat.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/lsbeat.2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/lsbeat.3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/lsbeat.4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/lsbeat.5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/lsbeat.6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/lsbeat.7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lsbeat.docker.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lsbeat.reference.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lsbeat.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/magefile.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/make.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/system/config/lsbeat.yml.j2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/system/lsbeat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/system/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/system/test_base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/tools.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1nYxBkk6IyHB9kzpYWCQJdzbvaH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../countbeat" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <proxy>direct</proxy>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2492" y="853" width="640" height="397" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611717151333">
+      <screen x="0" y="27" width="3840" height="2133" />
+    </state>
+    <state x="2492" y="853" width="640" height="397" key="#com.intellij.fileTypes.FileTypeChooser/0.27.3840.2133@0.27.3840.2133" timestamp="1611717151333" />
+    <state x="2597" y="806" key="FileChooserDialogImpl" timestamp="1611720707189">
+      <screen x="0" y="27" width="3840" height="2133" />
+    </state>
+    <state x="2597" y="806" key="FileChooserDialogImpl/0.27.3840.2133@0.27.3840.2133" timestamp="1611720707189" />
+    <state x="560" y="716" width="1052" height="737" key="SettingsEditor" timestamp="1611581335619">
+      <screen x="0" y="27" width="3840" height="2133" />
+    </state>
+    <state x="560" y="716" width="1052" height="737" key="SettingsEditor/0.27.3840.2133@0.27.3840.2133" timestamp="1611581335619" />
+    <state x="2102" y="742" width="1433" height="1073" key="find.popup" timestamp="1611727481309">
+      <screen x="0" y="27" width="3840" height="2133" />
+    </state>
+    <state x="2102" y="742" width="1433" height="1073" key="find.popup/0.27.3840.2133@0.27.3840.2133" timestamp="1611727481309" />
+  </component>
+</project>
